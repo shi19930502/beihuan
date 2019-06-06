@@ -1,0 +1,25 @@
+[
+	{
+		"name": "薄荷尖",
+		"categoryId": 162,
+		"gbgoodsId": "01232223",
+		"code": "01232223",
+		"skuPrice": "14",
+		"customerId": "2",
+		"productPicUrl": "upload/20190404/productCategory/MTU1NDM0MDYyMjM2OA==",
+		"measureMethod": "001",
+		"isMuslim": "0",
+		"productSkuList": [
+			{
+				"price": "14",
+				"name": "薄荷尖",
+				"basePrice": "14",
+				"skuPicUrl": "upload/20190404/productCategory/MTU1NDM0MDYyMjM2OA==",
+				"chargingModel": "1",
+				"skuWeight": "1.00",
+				"skuMeasure": "001",
+				"isMuslim": "0"
+			}
+		]
+	}
+]

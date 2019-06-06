@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>下载</title>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		img{
+			display: block;
+		}
+		.down {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 16px;
+			width: 160px;
+			height: 40px;
+			background: #018BE6;
+			color: white;
+			text-align: center;
+			margin: 1rem auto 0;
+			border-radius: 40px;
+			font-weight: bold;
+		}
+		
+		.down_notice {
+			color: red;
+			margin: 20px;
+			text-align: center;
+			margin-bottom: 10px;
+			font-size: 12px;
+		}
+		
+		.content {
+			padding: 20px;
+			display: none;
+		}
+		
+		.title {
+			padding: 20px 0;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		
+		.fangfa {
+			font-size: 16px;
+			font-weight: bold;
+			margin: 20px;
+		}
+		
+		.ts_img_3,
+		.ts_img_4 {
+			width: 90%;
+			margin: auto;
+		}
+		
+		p {
+			font-weight: bold;
+			padding: 20px;
+			font-size: 14px;
+		}
+	</style>
+
+	<body>
+		<a href="http://10.2.15.105:8020/银川_微信快捷下单@北环/dist/js/bd.pdf" download="测试PDF">测试本地下载</a>
+		<div id='down' onclick="downPdf()" class="down">下载</div>
+		<div class="down_notice">***注:手机微信不支持下载，下载请使用浏览器打开。***</div>
+		<div class="content" id='content'>
+			<div class="title">浏览器下载操作方法：</div>
+			<p>点击下载按钮，打开pdf文件。</p>
+			<img v-if='weiXin' class="ts_img_4" src="./img/wx_ts_4.png" alt="" />
+			<p>第一步：</p>
+			<img class="ts_img_4" src="./img/wx_ts_6.png" alt="" />
+			<div class="fangfa">方法一(当pdf文件大小较小时)：</div>
+			<img class="ts_img_4" src="./img/wx_ts_5.png" alt="" />
+			<div class="fangfa">方法二(当pdf文件大小较大时)：</div>
+			<img class="ts_img_4" src="./img/wx_ts_7.png" alt="" />
+			<p>存储文件,最后在手机中找到应用程序“文件”即可打开。</p>
+			<img class="ts_img_4" src="./img/wx_ts_8.png" alt="" />
+		</div>
+		<script src="./js/zepto.min.js"></script>
+		<script src="./js/down.js"></script>
+	</body>
+
+</html>

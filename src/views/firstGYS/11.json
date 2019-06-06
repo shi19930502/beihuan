@@ -1,0 +1,26 @@
+[
+	{
+		"name": "蒌蒿",
+		"categoryId": 258,
+		"gbgoodsId": "01236017",
+		"code": "01236017",
+		"skuPrice": "12",
+		"customerId": "2",
+		"productPicUrl": "upload/20190404/productCategory/MTU1NDMzNzIzMjg4MQ==",
+		"measureMethod": "001",
+		"isMuslim": "0",
+		"productSkuList": [
+			{
+				"price": "12",
+				"name": "蒌蒿",
+				"basePrice": "12",
+				"skuPicUrl": "upload/20190404/productCategory/MTU1NDMzNzIzMjg4MQ==",
+				"chargingModel": "1",
+				"skuWeight": "13",
+				"skuMeasure": "001",
+				"customerId": 2,
+				"isMuslim": "0"
+			}
+		]
+	}
+]
